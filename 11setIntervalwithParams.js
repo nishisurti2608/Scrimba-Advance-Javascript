@@ -10,6 +10,8 @@ function startCountdown(device) {
             clearInterval(shutdownTimer)
         }
 
-    }, 1000, 'MacBook')
+    }, 1000)
 }
 startCountdown('MacBook')
+
+
