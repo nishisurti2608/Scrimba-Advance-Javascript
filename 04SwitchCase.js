@@ -34,3 +34,42 @@ Challenge:
 }
 
 console.log(selectItem('biscuits'))
+
+/* Notes : 
+
+default can be anywhere but better at the end 
+
+Switch statements use strict equality (===), which means:
+- Case sensitivity matters for strings
+- Type matters (no coercion)
+
+**Use switch when:**
+
+✅ You're comparing ONE variable against multiple constant values
+✅ The cases are discrete, enumerable values (not ranges or complex conditions)
+✅ You have 3+ branches (below that, if-else is often clearer)
+✅ Fall-through behavior adds value (rare, but powerful)
+
+**Don't use switch when:**
+
+❌ You're checking multiple variables
+❌ Conditions involve ranges (age > 18, price < 100)
+❌ Logic is complex (combining AND/OR conditions)
+❌ You need dynamic/runtime values
+
+Real world example : 
+
+// Perfect for switch
+switch (userRole) {
+  case 'admin':
+    return fullAccess();
+  case 'editor':
+    return editAccess();
+  case 'viewer':
+    return readAccess();
+  default:
+    return noAccess();
+}
+
+
+*/
