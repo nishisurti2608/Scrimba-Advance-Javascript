@@ -17,6 +17,7 @@ const ddirector = favouriteFilm.director
 console.log(`My favourite film is ${title} starring ${star}. It's an ${genre} film that was directed by ${director} and released in ${year}.`)
 
 
-/* Above code is repetative  */
+/* Above code is repetative  
+Note properties name of an object must be the same otherwise it will return undefined  */
 
 const {title,year,genre,star,director} = favouriteFilm
