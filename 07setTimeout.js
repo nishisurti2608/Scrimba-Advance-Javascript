@@ -6,7 +6,7 @@ console.log('What is the capital of Peru?')
 
 setTimeout(function(){
     console.log('Lima!')
-}, 3000)
+}, 3000) //Here we have used inline funtion
 
 setTimeout(function(){
     console.log('Ready for next question?')
