@@ -1,19 +1,13 @@
-const playerGuess = 6
-const correctAnswer = 6
+/* Getting only elemnts from an array  */
 
-/*
-Challenge
-1. Now improve the functionality of this code by 
-   letting the player know if their guess was too high, 
-   too low, or exactly right.
-*/
+const ages = [1, 5, 9, 23, 56, 10, 47, 70, 10, 19, 23, 18]
 
-// const message = playerGuess < correctAnswer ? 'Correct!' : 'Wrong!'
+const elder = ages.filter(function(age){
+
+    return age>=18
 
 
-const message = playerGuess < correctAnswer ? 'Too low!' 
-    : playerGuess > correctAnswer ? 'Too high' 
-    : 'Exactly right!'
+})
 
 
-console.log(message)
+console.log(elder)
