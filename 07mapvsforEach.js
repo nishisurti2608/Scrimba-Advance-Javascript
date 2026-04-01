@@ -1,1 +1,2 @@
-/* map method returns new array */
+/* map method returns new array 
+you can chain all methods with map method */
