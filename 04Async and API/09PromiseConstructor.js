@@ -2,7 +2,11 @@
 Challenge:
 1. Get the promise working so it returns “Operation successful!” 
    if it resolves and "Operation failed." if it rejects. 
+
+   When you have to v=create your own async action
 */
+
+
 
 const promise = new Promise((resolve, reject)=> {
     const success = Math.random() > 0.5
